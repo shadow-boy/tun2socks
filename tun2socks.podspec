@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   nothing else
                        DESC
 
-  s.homepage         = 'https://github.com/shadow-boy/lwip'
+  s.homepage         = 'https://github.com/shadow-boy/tun2socks'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shadow-boy' => 'wly1250623585@163.com' }
-  s.source           = { :git => 'https://github.com/shadow-boy/lwip.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/shadow-boy/tun2socks.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
