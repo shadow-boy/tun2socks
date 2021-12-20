@@ -34,8 +34,7 @@ Pod::Spec.new do |s|
   # s.module_name = "tun2socks"
 
   # s.resources = 'tun2socks/Classes/**/*'
-  s.ios.source_files = 'tun2socks/*.swift'
-  s.osx.source_files = 'tun2socks/*.swift'
+  s.source_files = 'tun2socks/*.swift'
 
   s.dependency 'lwip'
 
